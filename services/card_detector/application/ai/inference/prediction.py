@@ -37,6 +37,7 @@ class CardsDetector:
         # Load image using OpenCV and
         # expand image dimensions to have shape: [1, None, None, 3]
         # i.e. a single-column array, where each item in the column has the pixel RGB value
+        self.settings.logger.info("Performing Inference on image-->" + image_path)
         sess = tf.Session(graph=self.detection_graph)
         image = cv2.imread(image_path)
         image_expanded = np.expand_dims(image, axis=0)
@@ -45,9 +46,12 @@ class CardsDetector:
             [self.detection_boxes, self.detection_scores, self.detection_classes, self.num_detections],
             feed_dict={self.image_tensor: image_expanded})
 
-        return self.__post_process(boxes, scores, classes, num, image)
+        self.settings.logger.info("Inference on image-->" + image_path + "--- Successful--!!")
 
-    def __post_process(self, boxes, scores, classes, num, image):
+        return self.__post_process(boxes, scores, classes, num, image, image_path)
+
+    def __post_process(self, boxes, scores, classes, num, image, image_path):
+        self.settings.logger.info("Performing Post Processing  on image-->" + image_path)
         result = scores.flatten()
         res = []
         for idx in range(0, len(result)):
@@ -127,5 +131,11 @@ class CardsDetector:
         #
         # # Clean up
         # cv2.destroyAllWindows()
+        self.settings.logger.info(
+            "Output Image stored in directory -- " + self.settings.OUTPUT_IMAGE_PATH + "----with image name--" +output_image_name + "--Successfully--!!")
+        self.settings.logger.info("Result for image -- " + output_image_name + " \n" + str(list_of_output))
         list_of_output.append({"image": open_coded_base64.decode('utf-8')})
+
+        self.settings.logger.info("Post Processing  on image-->" + image_path + " is done successfully--!!")
+
         return list_of_output

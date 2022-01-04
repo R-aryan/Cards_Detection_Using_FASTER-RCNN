@@ -1,0 +1,56 @@
+[05-Jan-2022 : 00:39:41] WARNING [tensorflow.__getattr__:119] From C:\Users\rites\Documents\GitHub\Cards_Detection_Using_FASTER-RCNN\services\card_detector\application\ai\inference\prediction.py:16: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
+
+[05-Jan-2022 : 00:39:42] INFO [werkzeug._log:122]  * Running on http://127.0.0.1:9000/ (Press CTRL+C to quit)
+[05-Jan-2022 : 00:39:47] INFO [werkzeug._log:122] 127.0.0.1 - - [05/Jan/2022 00:39:47] "[37mGET / HTTP/1.1[0m" 200 -
+[05-Jan-2022 : 00:40:00] INFO [root.info:27] INFO : Received Post Request for inference--!!
+[05-Jan-2022 : 00:40:00] INFO [root.info:27] INFO : Image stored in directory -- ../images/input_images/
+[05-Jan-2022 : 00:40:00] INFO [root.info:27] INFO : Performing Inference on image-->../images/input_images/input_image_00.122702.jpg
+[05-Jan-2022 : 00:40:00] WARNING [tensorflow.__getattr__:119] From C:\Users\rites\Documents\GitHub\Cards_Detection_Using_FASTER-RCNN\services\card_detector\application\ai\inference\prediction.py:41: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+[05-Jan-2022 : 00:40:06] INFO [root.info:27] INFO : Inference on image-->../images/input_images/input_image_00.122702.jpg--- Successful--!!
+[05-Jan-2022 : 00:40:15] INFO [root.info:27] INFO : Performing Post Processing  on image-->../images/input_images/input_image_00.122702.jpg
+[05-Jan-2022 : 00:40:24] INFO [root.info:27] INFO : Output Image stored in directory -- ../images/output_images/
+[05-Jan-2022 : 00:40:24] INFO [root.info:27] INFO : Result for image -- output_image_19.123244.jpg 
+[{'className': 'Ten', 'confidence': '0.87845135', 'yMin': '0.38643754', 'xMin': '0.20975517', 'yMax': '0.7703679', 'xMax': '0.612853'}, {'className': 'Nine', 'confidence': '0.70285875', 'yMin': '0.40762877', 'xMin': '0.23231685', 'yMax': '0.7492717', 'xMax': '0.5862593'}]
+[05-Jan-2022 : 00:40:24] INFO [root.info:27] INFO : Post Processing  on image-->../images/input_images/input_image_00.122702.jpg is done successfully--!!
+[05-Jan-2022 : 00:40:24] INFO [werkzeug._log:122] 127.0.0.1 - - [05/Jan/2022 00:40:24] "[37mPOST /predict HTTP/1.1[0m" 200 -
+[05-Jan-2022 : 00:41:20] INFO [root.info:27] INFO : Received Post Request for inference--!!
+[05-Jan-2022 : 00:41:20] INFO [root.info:27] INFO : Image stored in directory -- ../images/input_images/
+[05-Jan-2022 : 00:41:20] INFO [root.info:27] INFO : Performing Inference on image-->../images/input_images/input_image_20.562636.jpg
+[05-Jan-2022 : 00:41:26] INFO [root.info:27] INFO : Inference on image-->../images/input_images/input_image_20.562636.jpg--- Successful--!!
+[05-Jan-2022 : 00:41:29] INFO [root.info:27] INFO : Performing Post Processing  on image-->../images/input_images/input_image_20.562636.jpg
+[05-Jan-2022 : 00:41:47] INFO [root.info:27] INFO : Output Image stored in directory -- ../images/output_images/
+[05-Jan-2022 : 00:41:57] INFO [root.info:27] INFO : Result for image -- output_image_35.198925.jpg 
+[{'className': 'queen', 'confidence': '0.99478453', 'yMin': '0.522151', 'xMin': '0.4637763', 'yMax': '0.9691229', 'xMax': '0.6532313'}, {'className': 'queen', 'confidence': '0.9922943', 'yMin': '0.03914245', 'xMin': '0.46348554', 'yMax': '0.4171904', 'xMax': '0.65351516'}, {'className': 'queen', 'confidence': '0.9832448', 'yMin': '0.52790195', 'xMin': '0.25737306', 'yMax': '0.9730035', 'xMax': '0.43852416'}, {'className': 'queen', 'confidence': '0.9413392', 'yMin': '0.036697216', 'xMin': '0.26654246', 'yMax': '0.43109688', 'xMax': '0.44198057'}]
+[05-Jan-2022 : 00:42:02] INFO [root.info:27] INFO : Post Processing  on image-->../images/input_images/input_image_20.562636.jpg is done successfully--!!
+[05-Jan-2022 : 00:42:02] INFO [werkzeug._log:122] 127.0.0.1 - - [05/Jan/2022 00:42:02] "[37mPOST /predict HTTP/1.1[0m" 200 -
+[05-Jan-2022 : 00:42:28] WARNING [tensorflow.__getattr__:119] From C:\Users\rites\Documents\GitHub\Cards_Detection_Using_FASTER-RCNN\services\card_detector\application\ai\inference\prediction.py:16: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
+
+[05-Jan-2022 : 00:42:29] INFO [werkzeug._log:122]  * Running on http://127.0.0.1:9000/ (Press CTRL+C to quit)
+[05-Jan-2022 : 00:42:42] INFO [root.info:27] INFO : Received Post Request for inference--!!
+[05-Jan-2022 : 00:42:42] INFO [root.info:27] INFO : Image stored in directory -- ../images/input_images/
+[05-Jan-2022 : 00:42:42] INFO [root.info:27] INFO : Performing Inference on image-->../images/input_images/input_image_42.904905.jpg
+[05-Jan-2022 : 00:42:42] WARNING [tensorflow.__getattr__:119] From C:\Users\rites\Documents\GitHub\Cards_Detection_Using_FASTER-RCNN\services\card_detector\application\ai\inference\prediction.py:41: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+[05-Jan-2022 : 00:42:48] INFO [root.info:27] INFO : Inference on image-->../images/input_images/input_image_42.904905.jpg--- Successful--!!
+[05-Jan-2022 : 00:42:51] INFO [root.info:27] INFO : Performing Post Processing  on image-->../images/input_images/input_image_42.904905.jpg
+[05-Jan-2022 : 00:43:08] INFO [root.info:27] INFO : Output Image stored in directory -- ../images/output_images/with image name--output_image_54.719015.jpg--Successfully--!!
+[05-Jan-2022 : 00:43:08] INFO [root.info:27] INFO : Result for image -- output_image_54.719015.jpg 
+[{'className': 'Ace', 'confidence': '0.99980336', 'yMin': '0.0098228725', 'xMin': '0.42682594', 'yMax': '0.43075994', 'xMax': '0.5982308'}, {'className': 'Ace', 'confidence': '0.999539', 'yMin': '0.02279116', 'xMin': '0.21423468', 'yMax': '0.4441142', 'xMax': '0.3970032'}, {'className': 'Ace', 'confidence': '0.99892575', 'yMin': '0.49515983', 'xMin': '0.20926866', 'yMax': '0.9605499', 'xMax': '0.39252248'}, {'className': 'Ace', 'confidence': '0.9963624', 'yMin': '0.47177267', 'xMin': '0.42473623', 'yMax': '0.95968163', 'xMax': '0.62257653'}]
+[05-Jan-2022 : 00:43:08] INFO [root.info:27] INFO : Post Processing  on image-->../images/input_images/input_image_42.904905.jpg is done successfully--!!
+[05-Jan-2022 : 00:43:08] INFO [werkzeug._log:122] 127.0.0.1 - - [05/Jan/2022 00:43:08] "[37mPOST /predict HTTP/1.1[0m" 200 -
+[05-Jan-2022 : 00:44:30] WARNING [tensorflow.__getattr__:119] From C:\Users\rites\Documents\GitHub\Cards_Detection_Using_FASTER-RCNN\services\card_detector\application\ai\inference\prediction.py:16: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
+
+[05-Jan-2022 : 00:44:31] INFO [werkzeug._log:122]  * Running on http://127.0.0.1:9000/ (Press CTRL+C to quit)
+[05-Jan-2022 : 00:44:56] INFO [root.info:27] INFO : Received Post Request for inference--!!
+[05-Jan-2022 : 00:44:56] INFO [root.info:27] INFO : Image stored in directory -- ../images/input_images/
+[05-Jan-2022 : 00:44:56] INFO [root.info:27] INFO : Performing Inference on image-->../images/input_images/input_image_56.540366.jpg
+[05-Jan-2022 : 00:44:56] WARNING [tensorflow.__getattr__:119] From C:\Users\rites\Documents\GitHub\Cards_Detection_Using_FASTER-RCNN\services\card_detector\application\ai\inference\prediction.py:41: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+[05-Jan-2022 : 00:45:02] INFO [root.info:27] INFO : Inference on image-->../images/input_images/input_image_56.540366.jpg--- Successful--!!
+[05-Jan-2022 : 00:45:09] INFO [root.info:27] INFO : Performing Post Processing  on image-->../images/input_images/input_image_56.540366.jpg
+[05-Jan-2022 : 00:45:16] INFO [root.info:27] INFO : Output Image stored in directory -- ../images/output_images/----with image name--output_image_14.619856.jpg--Successfully--!!
+[05-Jan-2022 : 00:45:16] INFO [root.info:27] INFO : Result for image -- output_image_14.619856.jpg 
+[{'className': 'Ten', 'confidence': '0.87845135', 'yMin': '0.38643754', 'xMin': '0.20975517', 'yMax': '0.7703679', 'xMax': '0.612853'}, {'className': 'Nine', 'confidence': '0.70285875', 'yMin': '0.40762877', 'xMin': '0.23231685', 'yMax': '0.7492717', 'xMax': '0.5862593'}]
+[05-Jan-2022 : 00:45:16] INFO [root.info:27] INFO : Post Processing  on image-->../images/input_images/input_image_56.540366.jpg is done successfully--!!
+[05-Jan-2022 : 00:45:16] INFO [werkzeug._log:122] 127.0.0.1 - - [05/Jan/2022 00:45:16] "[37mPOST /predict HTTP/1.1[0m" 200 -
