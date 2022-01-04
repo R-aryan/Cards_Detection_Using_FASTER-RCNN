@@ -1,5 +1,6 @@
 import os
 
+from common.logging.console_logger import ConsoleLogger
 from services.card_detector.application.ai.research.object_detection.utils import label_map_util
 
 
@@ -50,3 +51,6 @@ class Settings:
     class_threshold = 0.40
     min_score_thresh = .30
     image_extension = ".jpg"
+
+    # setting up logs
+    logger = ConsoleLogger(filename=LOGS_DIRECTORY)
