@@ -109,9 +109,8 @@ class CardsDetector:
             use_normalized_coordinates=True,
             line_thickness=8,
             min_score_thresh=0.60)
-        output_image_name = "output.jpg"
-        OUTPUT_IMAGE_PATH = "../images/output_images/"
-        output_filename = OUTPUT_IMAGE_PATH + output_image_name
+        output_image_name = "output_image_" + str(datetime.now()).split(':')[-1] + ".jpg"
+        output_filename = self.settings.OUTPUT_IMAGE_PATH + output_image_name
         cv2.imwrite(output_filename, image)
         open_coded_base64 = encodeImageIntoBase64(output_filename)
         # json_image = dict(zip(img_dict, image_64_encode_list))

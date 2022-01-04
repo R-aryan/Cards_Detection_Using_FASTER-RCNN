@@ -12,5 +12,9 @@ def decodeImage(imgstring, fileName, image_path):
 
 
 def encodeImageIntoBase64(croppedImagePath):
-    with open(croppedImagePath, "rb") as f:
-        return base64.b64encode(f.read())
+    try:
+        with open(croppedImagePath, "rb") as f:
+            return base64.b64encode(f.read())
+    except BaseException as ex:
+        print(ex)
+
