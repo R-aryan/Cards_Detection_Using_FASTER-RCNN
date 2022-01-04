@@ -54,3 +54,18 @@
 [{'className': 'Ten', 'confidence': '0.87845135', 'yMin': '0.38643754', 'xMin': '0.20975517', 'yMax': '0.7703679', 'xMax': '0.612853'}, {'className': 'Nine', 'confidence': '0.70285875', 'yMin': '0.40762877', 'xMin': '0.23231685', 'yMax': '0.7492717', 'xMax': '0.5862593'}]
 [05-Jan-2022 : 00:45:16] INFO [root.info:27] INFO : Post Processing  on image-->../images/input_images/input_image_56.540366.jpg is done successfully--!!
 [05-Jan-2022 : 00:45:16] INFO [werkzeug._log:122] 127.0.0.1 - - [05/Jan/2022 00:45:16] "[37mPOST /predict HTTP/1.1[0m" 200 -
+[05-Jan-2022 : 00:48:53] WARNING [tensorflow.__getattr__:119] From C:\Users\rites\Documents\GitHub\Cards_Detection_Using_FASTER-RCNN\services\card_detector\application\ai\inference\prediction.py:16: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
+
+[05-Jan-2022 : 00:48:54] INFO [werkzeug._log:122]  * Running on http://127.0.0.1:9000/ (Press CTRL+C to quit)
+[05-Jan-2022 : 00:49:15] INFO [root.info:27] INFO : Received Post Request for inference--!!
+[05-Jan-2022 : 00:49:15] INFO [root.info:27] INFO : Image stored in directory -- ../images/input_images/--with image name--input_image_15.149860.jpg
+[05-Jan-2022 : 00:49:15] INFO [root.info:27] INFO : Performing Inference on image-->../images/input_images/input_image_15.149860.jpg
+[05-Jan-2022 : 00:49:15] WARNING [tensorflow.__getattr__:119] From C:\Users\rites\Documents\GitHub\Cards_Detection_Using_FASTER-RCNN\services\card_detector\application\ai\inference\prediction.py:41: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+[05-Jan-2022 : 00:49:21] INFO [root.info:27] INFO : Inference on image-->../images/input_images/input_image_15.149860.jpg--- Successful--!!
+[05-Jan-2022 : 00:49:21] INFO [root.info:27] INFO : Performing Post Processing  on image-->../images/input_images/input_image_15.149860.jpg
+[05-Jan-2022 : 00:49:21] INFO [root.info:27] INFO : Output Image stored in directory -- ../images/output_images/----with image name--output_image_21.672585.jpg--Successfully--!!
+[05-Jan-2022 : 00:49:21] INFO [root.info:27] INFO : Result for image -- output_image_21.672585.jpg 
+[{'className': 'queen', 'confidence': '0.99587005', 'yMin': '0.401324', 'xMin': '0.13272244', 'yMax': '0.7556709', 'xMax': '0.5007913'}, {'className': 'Ace', 'confidence': '0.52294487', 'yMin': '0.7074283', 'xMin': '0.5742046', 'yMax': '1.0', 'xMax': '1.0'}]
+[05-Jan-2022 : 00:49:21] INFO [root.info:27] INFO : Post Processing  on image-->../images/input_images/input_image_15.149860.jpg is done successfully--!!
+[05-Jan-2022 : 00:49:21] INFO [werkzeug._log:122] 127.0.0.1 - - [05/Jan/2022 00:49:21] "[37mPOST /predict HTTP/1.1[0m" 200 -

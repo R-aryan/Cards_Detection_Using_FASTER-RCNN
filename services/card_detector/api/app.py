@@ -26,8 +26,9 @@ def predictRoute():
         image_name = "input_image_" + str(datetime.now()).split(':')[-1] + ".jpg"
         cards_detector.settings.logger.info("Received Post Request for inference--!!")
         decodeImage(image, image_name, cards_detector.settings.INPUT_IMAGE_PATH)
-        cards_detector.settings.logger.info("Image stored in directory -- " + cards_detector.settings.INPUT_IMAGE_PATH,
-                                            "with image name--" + str(image_name))
+        cards_detector.settings.logger.info(
+            "Image stored in directory -- " + cards_detector.settings.INPUT_IMAGE_PATH + "--with image name--" + str(
+                image_name))
         result = cards_detector.predict(cards_detector.settings.INPUT_IMAGE_PATH + image_name)
         return jsonify(result)
     except BaseException as ex:
