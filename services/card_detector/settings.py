@@ -13,7 +13,7 @@ class Settings:
     PROJ_NAME = 'Cards_Detection_Using_FASTER-RCNN'
     root_path = os.getcwd().split(PROJ_NAME)[0] + PROJ_NAME + sep
     APPLICATION_PATH = root_path + "services" + sep + "card_detector" + sep + "application" + sep
-    print(APPLICATION_PATH)
+    # print(APPLICATION_PATH)
     # setting up logs path
     LOGS_DIRECTORY = root_path + "services" + sep + "card_detector" + sep + "logs" + sep + "logs.txt"
 
@@ -23,14 +23,14 @@ class Settings:
 
     # Path to label map file
     PATH_TO_LABELS = APPLICATION_PATH + "ai" + sep + "research" + sep + "data" + sep + "labelmap.pbtxt"
-    print(PATH_TO_LABELS)
+    # print(PATH_TO_LABELS)
 
     NUM_CLASSES = 6
 
     # input image path
-    INPUT_IMAGE_PATH = root_path + "services\\card_detector\\images\\input_images\\"
+    INPUT_IMAGE_PATH = "../images/input_images/"
     # output image path
-    OUTPUT_IMAGE_PATH = root_path + "services\\card_detector\\images\\output_images\\"
+    OUTPUT_IMAGE_PATH = "../images/output_images/"
 
     # Load the label map.
     # Label maps map indices to category names, so that when our convolution
