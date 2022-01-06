@@ -24,7 +24,7 @@
 - After running the **app.py** the web app can be accessed at **http://127.0.0.1:9000/** copy this url and paste it in your browser.
 - The UI will look like the following.
 
-![Sample UI](https://github.com/R-aryan/Cards_Detection_Using_FASTER-RCNN/tree/develop/msc/sample_ui.png)
+![Sample UI](https://github.com/R-aryan/Cards_Detection_Using_FASTER-RCNN/blob/develop/msc/sample_ui.png)
   <br>
   <br>
 
