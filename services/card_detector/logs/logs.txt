@@ -69,3 +69,8 @@
 [{'className': 'queen', 'confidence': '0.99587005', 'yMin': '0.401324', 'xMin': '0.13272244', 'yMax': '0.7556709', 'xMax': '0.5007913'}, {'className': 'Ace', 'confidence': '0.52294487', 'yMin': '0.7074283', 'xMin': '0.5742046', 'yMax': '1.0', 'xMax': '1.0'}]
 [05-Jan-2022 : 00:49:21] INFO [root.info:27] INFO : Post Processing  on image-->../images/input_images/input_image_15.149860.jpg is done successfully--!!
 [05-Jan-2022 : 00:49:21] INFO [werkzeug._log:122] 127.0.0.1 - - [05/Jan/2022 00:49:21] "[37mPOST /predict HTTP/1.1[0m" 200 -
+[06-Jan-2022 : 20:44:16] WARNING [tensorflow.__getattr__:119] From C:\Users\rites\Documents\GitHub\Cards_Detection_Using_FASTER-RCNN\services\card_detector\application\ai\inference\prediction.py:16: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
+
+[06-Jan-2022 : 20:44:17] INFO [werkzeug._log:122]  * Running on http://127.0.0.1:9000/ (Press CTRL+C to quit)
+[06-Jan-2022 : 20:44:35] INFO [werkzeug._log:122] 127.0.0.1 - - [06/Jan/2022 20:44:35] "[37mGET / HTTP/1.1[0m" 200 -
+[06-Jan-2022 : 20:44:36] INFO [werkzeug._log:122] 127.0.0.1 - - [06/Jan/2022 20:44:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

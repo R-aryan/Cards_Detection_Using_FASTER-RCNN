@@ -21,3 +21,21 @@
 - After downloading the trained weights place it under the directory [**services/card_detector/application/ai/weights/exported_inference_graph/**](https://github.com/R-aryan/Cards_Detection_Using_FASTER-RCNN/tree/develop/services/card_detector/application/ai/weights/exported_inference_graph)
 - After performing the above steps go to [services/card_detector/api](https://github.com/R-aryan/Cards_Detection_Using_FASTER-RCNN/tree/develop/services/card_detector/api) and run **app.py**
 > python app.py
+- After running the **app.py** the web app can be accessed at **http://127.0.0.1:9000/** copy this url and paste it in your browser.
+- The UI will look like the following.
+
+![Sample UI](https://github.com/R-aryan/Cards_Detection_Using_FASTER-RCNN/tree/develop/msc/sample_ui.png)
+  <br>
+  <br>
+
+- The picture can be uploaded using the **upload** button and after uploading the image click on **predict** to perform inference.
+
+![Sample Input](https://github.com/R-aryan/Cards_Detection_Using_FASTER-RCNN/blob/develop/services/card_detector/images/input_images/input_image_25.384023.jpg)
+  <br>
+  <br>
+
+![Sample output](https://github.com/R-aryan/Cards_Detection_Using_FASTER-RCNN/blob/develop/services/card_detector/images/output_images/output_image_37.152636.jpg)
+  <br>
+  <br>
+
+- The application logs can also be found [here](https://github.com/R-aryan/Cards_Detection_Using_FASTER-RCNN/tree/develop/services/card_detector/logs).
