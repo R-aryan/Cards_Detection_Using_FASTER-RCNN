@@ -29,10 +29,13 @@
   <br>
 
 - The picture can be uploaded using the **upload** button and after uploading the image click on **predict** to perform inference.
+- Sample Input
 
 ![Sample Input](https://github.com/R-aryan/Cards_Detection_Using_FASTER-RCNN/blob/develop/services/card_detector/images/input_images/input_image_25.384023.jpg)
   <br>
   <br>
+
+- Sample Output
 
 ![Sample output](https://github.com/R-aryan/Cards_Detection_Using_FASTER-RCNN/blob/develop/services/card_detector/images/output_images/output_image_37.152636.jpg)
   <br>
